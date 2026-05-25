@@ -376,3 +376,144 @@ input::placeholder,
 textarea::placeholder{
   color:#aaa;
 }
+
+
+@media (max-width: 768px) {
+
+  nav{
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    gap: 20px;
+    padding-bottom: 20px;
+  }
+
+  .ul{
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .hero-title{
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .hero-desc{
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.6;
+  }
+
+  .buttonbox{
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  #about{
+    flex-direction: column;
+    height: auto;
+    padding: 30px 20px;
+    align-items: center;
+  }
+
+  .gameimg{
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+  }
+
+  .imgbox{
+    left: 50%;
+    transform: translateX(-50%);
+    top: 85%;
+  }
+
+  #skills{
+    height: auto;
+    padding-bottom: 50px;
+  }
+
+  .skillsbox{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .lang{
+    width: 90%;
+    max-width: 300px;
+    justify-content: center;
+  }
+
+  #exprince{
+    height: auto;
+    padding-bottom: 100px;
+  }
+
+  .place{
+    position: static;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+  }
+
+  .place1,
+  .place2{
+    position: static;
+    width: 90%;
+    max-width: 320px;
+  }
+
+  #project{
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .websitebox{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .website{
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .website img{
+    width: 100%;
+    height: auto;
+  }
+
+  #contact{
+    flex-direction: column;
+    height: auto;
+    padding: 50px 20px;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .contact-form{
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .footer{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    height: auto;
+    padding: 50px 20px;
+  }
+
+  .footerbox2 ul{
+    flex-direction: column;
+    gap: 15px;
+  }
+
+}
